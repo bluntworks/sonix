@@ -1,0 +1,16 @@
+{
+  "name": "sonix",
+  "version": "0.0.1",
+  "description": "Sonic Toy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sonic",
+    "toy"
+  ],
+  "repository": "git@github.com:bluntworks/sonix.git",
+  "author": "bluntworks",
+  "license": "MIT"
+}
