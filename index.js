@@ -14,11 +14,7 @@ var sonix = module.exports = function() {
     .pipe(audio())
     .pipe(fft())
     .pipe(tru(function(fd) {
-      fd.fft.on('freqs', function(freq) {
-        log('freq', freq)
-      })
-
-      fd.fft.play()
+      log(fd)
     }))
 
 
